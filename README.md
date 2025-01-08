@@ -5,6 +5,8 @@
 - Next.js 14
 - React
 - TypeScript
+- react-query
+- redux
 - Styled-components
 - tailwind
 - firebase
@@ -17,7 +19,7 @@
    ```
 2. 프로젝트 디렉토리로 이동
    ```bash
-   cd your-repo
+   cd jambti
    ```
 3. 의존성 패키지 설치
    ```bash

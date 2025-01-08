@@ -1,3 +1,5 @@
+import HomePage from "./home/page";
+
 export default function App() {
-  return <div>시작!</div>;
+  return <HomePage />;
 }
