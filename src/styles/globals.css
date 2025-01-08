@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #76c100;
+  --color-secondary: #f65a05;
+  --color-thirdly: #febb00;
+  --color-background: #f0f0f0;
+  --color-text: #243700;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-noto-sans), sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-noto-sans), sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
