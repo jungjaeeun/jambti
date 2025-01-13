@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${notoSans.variable} ${roboto.variable} antialiased`}>
+      <body className={`${notoSans.className} ${roboto.className} antialiased`}>
         {children}
       </body>
     </html>
