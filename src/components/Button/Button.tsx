@@ -7,6 +7,7 @@ type ButtonProps = {
   variant?: ButtonVariant;
   size?: ButtonSize;
   block?: boolean;
+  disabled?: boolean;
 };
 
 const Button: React.FC<ButtonProps> = ({
@@ -15,11 +16,12 @@ const Button: React.FC<ButtonProps> = ({
   variant = "primary",
   size = "m",
   block,
+  disabled = false,
 }: ButtonProps): JSX.Element => {
   const styles = buttonStyles({ variant, size, block });
 
   return (
-    <button onClick={onClick} className={styles}>
+    <button onClick={onClick} className={styles} disabled={disabled}>
       {children}
     </button>
   );
